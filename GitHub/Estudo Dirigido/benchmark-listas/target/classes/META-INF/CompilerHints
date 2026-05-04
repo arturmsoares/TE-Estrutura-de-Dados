@@ -1,0 +1,13 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeFinalArrayList
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeFinalLinkedList
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeInicioArrayList
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeInicioLinkedList
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeMeioArrayList
+inline,br/edu/iftm/ed/BenchmarkRemocao.removeMeioLinkedList
+inline,br/edu/iftm/ed/BenchmarkRemocao.setup
+inline,br/edu/iftm/ed/MyBenchmark.testMethod
