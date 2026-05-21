@@ -1,0 +1,49 @@
+# Arquivos e pastas gerados pelo Maven, IDEs e sistemas operacionais
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+.flattened-pom.xml
+pom.xml.versionsBackup
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.settings/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Gradle
+.gradle/
+build/
+gradle.properties
+
+# SonarQube
+.scannerwork/
+
+# JVM
+hs_err_pid*.log
+*.hprof
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+*.ctxt
+
+# Logs
+*.log
+logs/
