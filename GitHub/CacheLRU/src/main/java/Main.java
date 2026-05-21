@@ -13,9 +13,7 @@ public class Main {
         System.out.println("       SIMULAÇÃO DE CACHE LRU");
         System.out.println("====================================");
 
-        /*
-         * Inserções iniciais
-         */
+
         cache.put("A", "Notebook");
         cache.put("B", "Mouse");
         cache.put("C", "Teclado");
@@ -30,13 +28,10 @@ public class Main {
         String chaveAcessada = scanner.nextLine();
         cache.get(chaveAcessada);
 
-        System.out.println("\nEstado após get(A):");
+        System.out.println("\nEstado após get():");
         exibirEstado(cache);
 
-        /*
-         * Agora o usuário escolhe a nova chave
-         * que excederá o limite do cache
-         */
+
         System.out.println("\n====================================");
         System.out.println("O cache está cheio.");
         System.out.println("A próxima inserção causará EVIÇÃO.");
@@ -48,9 +43,6 @@ public class Main {
         System.out.print("Digite o valor da chave: ");
         String novoValor = scanner.nextLine();
 
-        /*
-         * Antes da inserção
-         */
         System.out.println("\n--- ANTES DA INSERÇÃO ---");
         exibirEstado(cache);
 
@@ -63,9 +55,7 @@ public class Main {
         System.out.println("\nInserindo novo elemento...");
         cache.put(novaChave, novoValor);
 
-        /*
-         * Depois da inserção
-         */
+
         System.out.println("\n--- DEPOIS DA INSERÇÃO ---");
         cache.exibirCache();;
 
@@ -74,9 +64,7 @@ public class Main {
         scanner.close();
     }
 
-    /**
-     * Exibe informações completas do cache.
-     */
+
     private static void exibirEstado(LRUCache cache) {
 
         System.out.println("Ordem do cache:");
