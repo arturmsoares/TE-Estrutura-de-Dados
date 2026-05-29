@@ -1,0 +1,49 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+.DS_Store
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+*.log
+
+*.class
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+.vscode/
+.env
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Build
+build/
+dist/
+out/
+
+# Database
+*.db
+*.h2.db
+gc.log
+gc.log.*
+
+# OS
+.DS_Store
+Thumbs.db
